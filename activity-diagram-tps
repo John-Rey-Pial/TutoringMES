@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-05-11T14:59:36.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="acu9DcvSRDgxfO9txQS1" version="18.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-05-11T15:17:27.672Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.54 Safari/537.36 Edg/101.0.1210.39" etag="yP__u1rWALVzPDrI26XJ" version="18.0.3" type="github">
   <diagram id="W054aO7_bhswPQKvlRGG" name="Page-1">
     <mxGraphModel dx="1021" dy="567" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -183,7 +183,10 @@
             <mxPoint x="1020" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="uTvIBhE799pVgjaKX8xK-59" value="view daily/weekly/cut-off schedule" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
+        <mxCell id="uTvIBhE799pVgjaKX8xK-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="uTvIBhE799pVgjaKX8xK-59" target="uTvIBhE799pVgjaKX8xK-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="uTvIBhE799pVgjaKX8xK-59" value="view daily report" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="960" y="300" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="uTvIBhE799pVgjaKX8xK-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="uTvIBhE799pVgjaKX8xK-61" target="uTvIBhE799pVgjaKX8xK-63">
@@ -212,6 +215,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="uTvIBhE799pVgjaKX8xK-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FF0000;" edge="1" parent="1" source="uTvIBhE799pVgjaKX8xK-63" target="uTvIBhE799pVgjaKX8xK-68">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="409" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="uTvIBhE799pVgjaKX8xK-63" value="view daily/weekly/cut-off schedule" style="rounded=1;whiteSpace=wrap;html=1;arcSize=40;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="830" y="300" width="120" height="40" as="geometry" />
         </mxCell>
@@ -220,8 +230,17 @@
         </mxCell>
         <mxCell id="uTvIBhE799pVgjaKX8xK-66" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="uTvIBhE799pVgjaKX8xK-65" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1160" y="400" as="targetPoint" />
+            <mxPoint x="1150" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1150" y="400" />
+            </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="uTvIBhE799pVgjaKX8xK-68" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="875" y="409" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uTvIBhE799pVgjaKX8xK-69" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="409" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
